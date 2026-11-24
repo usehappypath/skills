@@ -1,0 +1,12 @@
+{
+  "name": "usehappypath",
+  "owner": { "name": "Happy Path" },
+  "metadata": { "description": "Skills for working with Happy Path, the live-site QA app for GitHub." },
+  "plugins": [
+    {
+      "name": "happypath",
+      "source": "./plugins/happypath",
+      "description": "Handle Happy Path QA issues: confirm on the live site, answer with /happypath commands, set up a repo."
+    }
+  ]
+}
